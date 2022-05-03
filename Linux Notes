@@ -1,0 +1,12 @@
+VirtualBox Guest additions commands
+		sudo apt install build-essential dkms linux-headers-generic 
+		sudo rcvboxadd setup
+    
+Better read log files:
+  	tail <LOG_FILE>	- tail shows last 10 log entries. -f only shows most recent.
+  	postfix make sure to run postmap or email won't work
+    
+List All users
+    awk -F: '{ print $1}' /etc/passwd
+    getent passwd
+    getent passwd {1000..60000}  # Normal users only
