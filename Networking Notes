@@ -1,0 +1,16 @@
+NMAP
+		Looking for open Ports (Host is for sure up)
+			nmap -Pn -PS -vv -p- <IP Address>
+
+Trace Route(windows): tracert -d <IP ADDRESS>
+Show Routes(windows): route print
+Reset winsock(windows): netsh winsock reset
+
+
+SSH Tunnel via PuTTY:
+	- While in an SSH sesson, Right click on title bar and Change Settings...
+	- Go to Connection > SSH > Tunnels
+	- Enter in a source port (IE: 8080, 8443, etc)
+	- Enter a Destination:port(80, 443 etc) (IP address of device to tunnel into)
+	- Click Add
+	- In your browser go to 127.0.0.1:PORT
