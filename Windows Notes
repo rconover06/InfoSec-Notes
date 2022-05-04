@@ -42,6 +42,10 @@ Task Scheduler Stuff:
   	schtasks /create /tn reboot /tr "cmd /c shutdown.exe /r /f /t 60 /c \"Server is restarting for maintenance\" /d p:4:1" /sc once /st 23:59 /ru System /f
   	[end]
 
+Share Security Group Best Practices:
+	Naming Convention: ShareName Share Writers or ShareName Share Readers
+	Description: Maps Drive - Members have write permission on the \\servername\ShareName share
+
 Disable Modern Standby (Connected Standby):
 	Run Registry Editor: regedit
 	Navigate to the following registry key: >
