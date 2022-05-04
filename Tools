@@ -1,0 +1,4 @@
+		Metasploit
+			Initialize: msfdb init
+			Start: msfconsole
+			To stop a module: back
