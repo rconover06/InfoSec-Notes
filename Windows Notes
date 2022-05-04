@@ -23,6 +23,9 @@ Common services:
 	- spooler
 	- "Active Directory Integration Sync Service"
 
+Add User and add to group:
+Create user: net user /add <username> <password>
+Add user to local admin group: net localgroup /add <local group> <username>
 
 Robocopy Stuff:
   Sample Robocopy command:
